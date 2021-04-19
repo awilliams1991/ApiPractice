@@ -11,6 +11,8 @@ namespace AmcCodeChallenge
         public string Descrption { get; set; }
         public DateTime PublishDate { get; set; }
         public string CoverImageUrl { get; set; }
+        public int AuthorId { get; set; }
+        public int CategoryId { get; set; }
 
     }
 }
